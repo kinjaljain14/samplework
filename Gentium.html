@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Gentium- Gentium WordPress Theme</title>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+         <style>
+            body{
+                color: white;
+                background-image: url("scam-4126798_1920.jpg");
+                /* width: 600px;
+                height: 300px; */
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 880px; 
+            }
+            a{
+                color: white;
+                font-size: 1.2vw;
+               /* margin-left: 50px; */
+                text-decoration: none;
+            }
+            .title > div{
+                display: inline;
+                color: white;
+                padding: 20px;
+                font-size: 1.7vw;
+                text-align: center;
+         
+                /* width: 60px; */
+        
+              
+            }        
+            .title{
+                margin-top: 60px;
+                margin-left: 75px;
+                position: fixed;
+                font-weight: inherit;
+                background-color: black;
+                height: 100px;
+               
+            }
+            .tt{
+                /* height: 100px;
+                background-color: black; */
+                text-align: center;
+                width: 1300px;
+                opacity: 0.9;
+            }
+            hr.new1{
+                border: 1.5px solid #e9204f;
+                width: 60px;
+                margin-left: 125px;
+            }
+            h1.kk{
+                font-size: 78px;
+                font-weight: 800;
+                line-height: 80px;
+                letter-spacing: -1.9px;
+                margin-left: 125px;
+                width: 635px;
+            }
+            .hvr-sweep-to-right {
+                display: inline-block;
+                vertical-align: middle;
+                transform: translateZ(0);
+                box-shadow: 0 0 1px #e9204f;
+                backface-visibility: hidden;
+                position: relative;
+                transition-property: color;
+                transition-duration: 0.3s;
+                margin-left: 125px;
+                background: transparent;
+                width: 200px;
+                height: 60px;
+                border: 1.5px solid #e9204f;
+            }
+           .hvr-sweep-to-right:before {
+                content: "";
+                position: absolute;
+                z-index: -1;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: #e9204f;
+                transform: scaleX(0);
+                transform-origin: 0 50%;
+                transition-property: transform;
+                transition-duration: 0.3s;
+                transition-timing-function: ease-out;
+            }
+            .hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+                color: white;
+            }
+            .hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+                transform: scaleX(1);
+            }
+            a{
+                text-decoration: none;
+                color: white;
+            } 
+            .link{
+                position: relative;
+            }
+            .link:after{
+                content: '';
+                position: absolute;
+                width: 0; 
+                height: 2px;
+                display: block;
+                margin-top: 2px;
+                right: 0;
+                background:#e9204f;
+                transition: width .2s ease;
+            }
+            .link:hover:after{
+                width: 50%;
+                left: 0;
+                background: #e9204f;
+            }
+            #grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                /* grid-template-rows: 100px 100px 100px; */
+                grid-gap: 2vw;
+                width: 1000px;
+                height: 780px;
+                margin-left: 125px;
+            }
+            #grid > div{
+                padding: .5em;
+                /* background-color: black; */
+                text-align: left;
+            }      
+            /* #grid > .grid1{
+                text-align: 50px 20px 50px 20px;
+                
+            }  */
+            .class{
+                font-size: 1.3vw;
+                letter-spacing: 50px;
+            }
+            .topic{
+                font-size: 1.7vw;
+                font-weight: bold;
+            }
+            #table{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 100px 100px 100px;
+                grid-gap: 1vw;
+                margin-top: 300px;
+                margin-left: -750px;
+                margin-right: -100px;
+
+            }
+            #table div{
+                padding: 0.2em;
+                font-size: 1.5vw;
+                background-color: rgb(224, 222, 222);
+                font-weight: bolder;
+                color: black;
+            }
+            /* .text{
+                float: right;
+                background-color: #e9204f;
+                width: 300px;
+                height: 50px;
+                margin-top: -40px;
+                margin-right: -500px;
+            } */
+            /* .grid1:hover{
+                background-color: #e9204f;
+            } */
+          .grdd{
+              display: grid;
+              background-color: beige;
+              grid-template-columns: 1fr 1fr 1fr;
+              height: 400px;
+              grid-gap: 3vw;
+              
+          }
+          .grdd > div{
+              background-color: black;
+              
+          }
+          .grd{
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              grid-gap: 1.5vw;
+              margin-top: 800px;
+          }
+          .gr{
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              grid-gap: 1.5vw;
+          }
+          .gr >div{
+              width: 400px;
+              margin: 0px;
+          }
+          
+         </style>
+    </head>
+    <body>
+        <div class="tt">
+            <div class="title">
+                <div style="font-size: 2.5vw; margin-right: 300px"><strong>Gentium.</strong></div>
+                <div><a class="link" href="a"><b>Home</b></a></div>
+                <div><a class="link" href="a"><b>Services</b></a></div>
+                <div><a class="link" href="a"><b>Works</b></a></div>
+                <div><a class="link" href="a"><b>About</b></a></div>
+                <div><a class="link" href="a"><b>Client</b></a></div>
+                <div><a class="link" href="a"><b>Blog</b></a></div>
+                <div><a class="link" href="a"><b>Contact</b></a></div>
+                <div><img src="C:\Users\admin\Desktop\html\search.png" width="25px" height="25px"></div>
+            </div>
+        </div>
+        <br><br><br><br><br><br>
+        <hr class="new1">
+
+        <h1 class="kk"><strong>We're a digital agency.</strong></h1>
+        <br>
+
+        <button type="button" class="hvr-sweep-to-right">Getting started</button>
+        <br><br><br><br><br><br><br><br><br>
+
+    
+
+        <div id="grid">
+        <div style="background-color: #e9204f";>
+                <p><span class="glyphicon glyphicon-stats"></span></p>
+                <br><br><br><br>
+                <h3 class="topic">Futute Vision.</h3>
+                <hr style="width: 60px; margin-left: 0px;">
+                <P class="para">It is a long established fact that a reader will be distracted by the readable
+                    content of a page.
+                </P>
+
+            </div>
+        <div  style="background-color: black;"><p><span class="glyphicon glyphicon-rocket"></span></p>
+            <br><br><br><br>
+            <h3 class="topic">Product Design.</h3>
+            <hr style="width: 60px; margin-left: 0px;" >
+            <p class="para"> 
+                There are many variations of passages of available, but the majority
+                alteration in some form.
+            </p>
+        </div>
+        <div  style="background-color: black;">
+            <p><span class="glyphicon glyphicon-chart-pie"></span></p> 
+            <br><br><br><br>
+            <h3 class="topic">Inovative Solutions.</h3>
+            <hr style="width: 60px; margin-left: 0px;">
+            <p class="para">The generated Lorem Ipsum is therefore always free 
+                from repetition, injected humour.
+            </p>
+        </div>
+        <!-- <div class="text"></div> -->
+        <div style="margin-top: 80px; background-color:white;">
+            <hr style="margin-top: 20px; border: 20px solid black;">
+        </div>
+      
+         
+         <div style="background-color: white; margin-top: 100px; text-align: left; margin-left: -350px;">
+        <h2 style="font-size: 3vw; color: black; font-weight: 800;">Services.</h2>
+        <h2 style="font-size: 1.2vw; color: #e9204f; font-weight: 600;">WE WORK WITH YOU, NOT FOR YOU</h2>
+    </div>
+
+    <div id="table">
+        <div>
+                <button type="button" class="hvr-sweep-to-right">Digitale strategy</button></div>
+        <div>
+                <button type="button" class="hvr-sweep-to-right">UX design</button></div>
+        <div>
+                <button type="button" class="hvr-sweep-to-right">Product Design</button></div>
+        <div>
+                <button type="button" class="hvr-sweep-to-right">Content Strategy</button></div>
+        <div>
+                <button type="button" class="hvr-sweep-to-right">Design & Concept</button></div>
+        <div>
+                <button type="button" class="hvr-sweep-to-right">Social Media</button></div>
+        <div>
+                <button type="button" class="hvr-sweep-to-right">Media Planning</button></div>
+        <div>
+                <button type="button" class="hvr-sweep-to-right">Brand Identity</button></div>
+        <div>
+                <button type="button" class="hvr-sweep-to-right">SEO Optimization</button></div>
+    </div>
+       <br><br><br><br>
+       <hr>
+
+       <div style="display: inline">
+        <div>
+       <h2 style="font-size: 3vw; font-weight:800; color: black; margin-left: -680px;">Works.
+       <p style="color: #e9204f; font-size: 1.6vw; font-weight: 500; margin-top: 10px;">THINGS WE'VE MADE</p></h2>
+    </div>
+       <div>
+            <button type="button" class="hvr-sweep-to-right" style="color: black; margin-top: -50px;">View All</button>
+       </div>
+    </div>
+
+    <div class="grdd">
+        <div><img src="C:\Users\admin\Desktop\html\top-view-sunglasses-towel-starfish-flip-flops-yellow-with-sunlight-shadow-palm-leaves_24972-477.jpg" width="400px"></div>
+        <div>2</div>
+        <div>3</div>
+    </div>   
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="grd">
+            <div>
+           <h2 style="font-size: 3vw; font-weight:800; color: black; margin-left: -680px;">About.
+           <p style="color: #e9204f; font-size: 1.2vw; font-weight: 500; margin-top: 10px;">WE'RE MORE THAN A DIGITAL AGENCY</p></h2>
+        </div>
+           <div>
+                <p style="color: black; margin-left: -380px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Tempore corrupti temporibus fuga earum asperiores, alias excepturi sit. Impedit, fugit laudantium.</p>
+           </div>
+        </div>
+
+        <div class="gr">
+            <div>
+                <img src="C:\Users\admin\Desktop\html\man-2933984_1920.jpg" width="300px"; height="400px">
+ 
+            </div>
+            <div>
+                <div><img src="m1.jpg"></div>
+                <div><img src="m2.jpg"></div>
+            </div>
+        </div>
+    </body>
+</html>
